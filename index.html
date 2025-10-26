@@ -1,0 +1,165 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title>Practica 18</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img width="50" height="50" src="logo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsesibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tours</a>
+                        </li>
+                        <li class="nav-item">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                    <div class="ms-auto">
+                    <button class="btn bg-primary text-white">Iniciar sesión</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid p-4 aling-items-center" style="background-image: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/0f/72/03/ca.jpg); background-repeat: no-repeat; background-size: cover;">
+        <img class="d-block mx-auto img-fluid w-50" src="https://travelear.mx/admin/uploads/image/playa-xcaret-1000x600.jpg">
+        <h1 class="text-center text-white" id="titulo">Vive la experiencia</h1>
+        <h2 class="text-center text-white" id="subtitulo">Tours unicos en Mexico y el Caribe</h2>
+        <button class="btn bg-white text-center d-block mx-auto btn-md">Ver Tours</button>
+        </div>
+
+        <div class="row text-center align-items-center justify-content-center m-3" id="tarjetas">
+            <div class="col-md-4 p-4 my-2">
+                <img src="https://chichenitza7.com/wp-content/uploads/2023/05/le-meilleur-Chichen-Itza-Classique-Tour.webp" width="350px">
+                <h2>Tour a Chichén Itzá</h2>
+                <label class="w-75">Visita la famosa zona arqueológica maya, incluyendo la Pirámide de Kukulkán. Aprenderás sobre la historia y cultura maya mientras recorres templos y cenotes cercanos.</label>
+                <button class="btn bg-black text-white text-center d-block mx-auto btn-md my-2">Ver Tour</button>
+            </div>
+            <div class="col-md-4 p-4 my-2">
+                <img src="https://www.cancunsailing.com/hs-fs/hubfs/Stock%20images/Tours/Full%20Experience/Full%20experience%20slider%20lite/Punta%20norte%20ixxi.webp?width=687&height=344&name=Punta%20norte%20ixxi.webp" width="350px">
+                <h2>Tour a Isla Mujeres</h2>
+                <label class="w-75">Excursión en barco desde Cancún o Playa del Carmen para nadar con tortugas, hacer snorkel en arrecifes de coral y disfrutar de playas de arena blanca y agua cristalina.</label>
+                <button class="btn bg-black text-white text-center d-block mx-auto btn-md my-2">Ver Tour</button>
+            </div>
+            <div class="col-md-4 p-4 my-2">
+                <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/11/dc/76/0c.jpg" width="350px">
+                <h2>Tour a las Islas del Rosario</h2>
+                <label class="w-75">Navegación hacia un archipiélago de aguas turquesa para practicar snorkel, buceo y relajarte en playas paradisíacas rodeadas de corales y vida marina.</label>
+                <button class="btn bg-black text-white text-center d-block mx-auto btn-md my-2">Ver Tour</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-center">Tabla de precios</h2>
+                <table class="table table-hover text-center m-2 table-bordered h-75 align-items-center" id="tabla">
+                    <thead>
+                        <tr>
+                            <td class="bg-dark text-white">Tour</td>
+                            <td class="bg-dark text-white">Duracion</td>
+                            <td class="bg-dark text-white">Precio</td>
+                            <td class="bg-dark text-white">Disponibilidad</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="align-middle">Chichén Itzá</td>
+                            <td class="align-middle">3 horas</td>
+                            <td class="align-middle">$1200</td>
+                            <td class="align-middle"><label class="text-success mx-2">Disponible</label><button class="btn bg-primary text-white mx-2">Detalles</button><button class="btn bg-success text-white">Reservar</button></td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">Isla Mujeres</td>
+                            <td class="align-middle">6 horas</td>
+                            <td class="align-middle">$3200</td>
+                            <td class="align-middle"><label class="text-success mx-2">Disponible</label><button class="btn bg-primary text-white mx-2">Detalles</button><button class="btn bg-success text-white">Reservar</button></td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">Islas del Rosario</td>
+                            <td class="align-middle">7 horas</td>
+                            <td class="align-middle">$1200</td>
+                            <td class="align-middle"><label class="text-success mx-2">Disponible</label><button class="btn bg-primary text-white mx-2">Detalles</button><button class="btn bg-success text-white">Reservar</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-center">Contacto</h2>
+            <form action="" class="border border-3 border-black p-4 rounded" id="formulario">
+                 
+            <div class="form-group">
+                <label>Ingrese su nombre:</label>
+                <input class="form-control" type="text" name="nombre" maxlength="100" required>
+            </div>
+
+            <div class="form-group">
+                <label>Ingrese su email: </label>
+                <input class="form-control" type="email" name="email" placeholder="ejemplo@gmail.com" required>
+            </div>
+
+            <div>
+                <label>Ingrese su telefono: </label>
+                <input class="form-control" type="password" name="contraseña" minlength="6" required>
+            </div>
+
+            <label>Tipo de tour:</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="genero">
+                <label class="form-check-label">Aventura</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="genero">
+                <label class="form-check-label">Cultural</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="genero">
+                <label class="form-check-label">Familiar</label>
+            </div>
+
+            <label>Servicios incluidos:</label>
+            <div id="radio">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="competencias">
+                <label class="form-check-label">Transporte</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="competencias">
+                <label class="form-check-label">Comida</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="competencias">
+                <label class="form-check-label">Guia</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="competencias">
+                <label class="form-check-label">Seguro</label>
+            </div>
+            </div>
+            <button class="btn btn-primary d-block mx-auto">Enviar solicitud</button>
+                </form>
+            </div>
+        </div>
+        <footer class="bg-dark text-white ">
+            <div class="row">
+                <div class="col-sm-4 d-flex align-items-center">
+                    <a class="text-white" href="privacidad.html">© 2025 Tu Empresa. Todos los derechos reservados.</a>
+                </div>
+                <div class="col-sm-8 text-center">
+                    <a href="https://www.facebook.com/?locale=es_LA"><img class="mx-4" src="https://static.vecteezy.com/system/resources/previews/018/930/698/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" height="50px"></a>   
+                    <a href="https://www.instagram.com/"><img class="mx-4" src="https://1000marcas.net/wp-content/uploads/2019/11/Instagram-Logosu.png" height="40px"></a>  
+                    <a href="https://www.whatsapp.com/?lang=es"><img class="mx-4" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" height="40px"></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="practica22.js"></script>
+</html>
